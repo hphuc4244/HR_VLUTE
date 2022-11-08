@@ -113,18 +113,18 @@
                         <span>Quản lý nhân sự</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-trophy"></i>
-                        <span>Khen thưởng</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-star"></i>
-                        <span>Thành tích</span>
-                    </a>
-                </li>
+{{--                <li>--}}
+{{--                    <a href="#">--}}
+{{--                        <i class="fa fa-trophy"></i>--}}
+{{--                        <span>Khen thưởng</span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+{{--                <li>--}}
+{{--                    <a href="#">--}}
+{{--                        <i class="fa fa-star"></i>--}}
+{{--                        <span>Thành tích</span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
 {{--                <li>--}}
 {{--                    <a href="#">--}}
 {{--                        <i class="fa fa-exclamation-triangle"></i>--}}

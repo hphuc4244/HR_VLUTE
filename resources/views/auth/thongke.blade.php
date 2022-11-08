@@ -1,12 +1,13 @@
 @extends('auth.master')
 @section('title') Quản lý nhân sự @endsection
 @section('content')
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <section class="content-header">
         <h1 class="tieu-de">
            THỐNG KÊ SỐ LƯỢNG CÁN BỘ GIẢNG VIÊN
         </h1>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <div>
         <canvas id="myChart"></canvas>
     </div>
@@ -17,6 +18,15 @@
            $soluong[] = $item->SoLuong;
        @endphp
     @endforeach
+
+    <section class="content-header">
+        <h1 class="tieu-de">
+            THỐNG KÊ TRÌNH ĐỘ CÁN BỘ GIẢNG VIÊN
+        </h1>
+    </section>
+    <div>
+        <canvas id="myChart_TrinhDo"></canvas>
+    </div>
     <script>
 
         const labels = @php echo json_encode($donvi); @endphp;
@@ -44,7 +54,9 @@
                     'rgb(201, 203, 207)'
                 ],
                 borderWidth: 1
-            }]
+            },
+
+            ]
         };
         const config = {
             type: 'bar',
@@ -59,6 +71,10 @@
         };
         const myChart = new Chart(
             document.getElementById('myChart'),
+            config
+        );
+        const myChart_TrinhDo = new Chart(
+            document.getElementById('myChart_TrinhDo'),
             config
         );
     </script>
