@@ -1,6 +1,11 @@
 @extends('auth.master')
 @section('title') Quản lý nhân sự @endsection
 @section('content')
+    <section class="content-header">
+        <h1 class="tieu-de">
+           THỐNG KÊ SỐ LƯỢNG CÁN BỘ GIẢNG VIÊN
+        </h1>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <div>
         <canvas id="myChart"></canvas>
@@ -18,7 +23,7 @@
         const data = {
             labels: labels,
             datasets: [{
-                label: 'Thống kê số lượng cán bộ giảng viên',
+                label: 'Số lượng cán bộ giảng viên',
                 data: @php echo json_encode($soluong); @endphp,
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
