@@ -29,6 +29,7 @@
             border-spacing: 0;
             width: 100%;
             border: 3px solid #00a65a;
+            border-radius: 3;
         }
 
         th, td {
@@ -45,7 +46,7 @@
             <div class="column">
                 <table>
                     <tr>
-                        <td colspan="3" style="text-align: center; font-size: 30px">TỦ SỐ 1</td>
+                        <td colspan="3" class="tieu-de" style="text-align: center; font-size: 30px">TỦ SỐ 1</td>
                     </tr>
                     <tr>
                         <th>Ngăn số</th>
@@ -72,7 +73,7 @@
             <div class="column">
                 <table>
                     <tr>
-                        <td colspan="3" style="text-align: center;font-size: 30px">TỦ SỐ 2</td>
+                        <td colspan="3" class="tieu-de" style="text-align: center;font-size: 30px">TỦ SỐ 2</td>
                     </tr>
                     <tr>
                         <th>Ngăn số</th>
