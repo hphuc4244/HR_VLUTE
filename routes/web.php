@@ -116,3 +116,7 @@ Route::group(['prefix' => '/donvi', 'middleware' => 'isLogin'], function() {
 Route::group(['prefix'=>'/thongke','middleware'=>'isLogin'],function () {
     Route::get('/','App\Http\Controllers\ThongKeController@getDSCanBoChart');
 });
+
+Route::group(['prefix'=>'/hoso','middleware'=>'isLogin'],function () {
+    Route::get('/','App\Http\Controllers\HoSoController@showTuHoSo');
+});

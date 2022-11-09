@@ -103,7 +103,7 @@
 {{--                @endif--}}
                 <li>
                     <a href="{{action('App\Http\Controllers\ThongKeController@getDSCanBoChart')}}">
-                        <i class="fa fa-users"></i>
+                        <i class="fa fa-bar-chart"></i>
                         <span>Thống kê nhân sự</span>
                     </a>
                 </li>
@@ -111,6 +111,12 @@
                     <a href="{{action('App\Http\Controllers\NhanVienController@getDanhSach')}}">
                         <i class="fa fa-users"></i>
                         <span>Quản lý nhân sự</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{action('App\Http\Controllers\HoSoController@showTuHoSo')}}">
+                        <i class="fa fa-archive"></i>
+                        <span>Vị trí lưu trữ hồ sơ</span>
                     </a>
                 </li>
 {{--                <li>--}}
