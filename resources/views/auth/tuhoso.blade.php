@@ -97,6 +97,60 @@
                     </tr>
                 </table>
             </div>
+            <div class="column">
+                <table>
+                    <tr>
+                        <td colspan="3" class="tieu-de" style="text-align: center;font-size: 30px">TỦ SỐ 3</td>
+                    </tr>
+                    <tr>
+                        <th>Ngăn số</th>
+                        <th>Trái</th>
+                        <th>Phải</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Johnson</td>
+                        <td>67</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="column">
+                <table>
+                    <tr>
+                        <td colspan="3" class="tieu-de" style="text-align: center;font-size: 30px">TỦ SỐ 4</td>
+                    </tr>
+                    <tr>
+                        <th>Ngăn số</th>
+                        <th>Trái</th>
+                        <th>Phải</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Johnson</td>
+                        <td>67</td>
+                    </tr>
+                </table>
+            </div>
         </section>
     </div>
 @endsection
